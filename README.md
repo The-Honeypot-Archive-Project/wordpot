@@ -39,6 +39,21 @@ Learn more in the dedicated [wiki page](https://github.com/gbrindisi/wordpot/wik
 
 * Project Homepage: http://brindi.si/g/projects/wordpot.html
 
+## Docker support
+
+It is possible to run wordpot using the honeypot image in Dockerhub.
+
+```bash
+# go to the honeypot repository
+cd wordpot/
+
+# we assume the wordpot.conf file was updated
+
+# run the docker container in daemon mode
+docker container run -d --name wordpot -v $(pwd)/wordpot.conf:/wordpot/wordpot.conf:ro -v $(pwd)/logs:/wordpot/logs -p 80:80 verovaleros/wordpot:latest
+
+```
+
 ## License
 
 ISC License.
