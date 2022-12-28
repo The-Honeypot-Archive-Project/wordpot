@@ -1,4 +1,7 @@
 # Wordpot
+[![Docker Image CI](https://github.com/The-Honeypot-Archive-Project/wordpot/actions/workflows/docker-image.yml/badge.svg)](https://github.com/The-Honeypot-Archive-Project/honeyprint/actions/workflows/docker-image.yml)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/The-Honeypot-Archive-Project/wordpot)
+![Docker Pulls](https://img.shields.io/docker/pulls/thehoneypotarchiveproject/wordpot?color=green)
 
 Wordpot is a Wordpress honeypot which detects probes for plugins, themes, timthumb and other common files used to fingerprint a wordpress installation.
    
