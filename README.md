@@ -50,7 +50,7 @@ cd wordpot/
 # we assume the wordpot.conf file was updated
 
 # run the docker container in daemon mode
-docker container run -d --name wordpot -v $(pwd)/wordpot.conf:/wordpot/wordpot.conf:ro -v $(pwd)/logs:/wordpot/logs -p 80:80 verovaleros/wordpot:latest
+docker container run -d --name wordpot -v $(pwd)/wordpot.conf:/wordpot/wordpot.conf:ro -v $(pwd)/logs:/wordpot/logs -p 80:80 thehoneypotarchiveproject/wordpot:latest
 
 ```
 
